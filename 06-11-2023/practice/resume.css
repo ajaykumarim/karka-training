@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.name{
+    outline: 0;
+    border-width: 0 0 1px;
+    width: 550px;
+    margin-top: 20px;
+}

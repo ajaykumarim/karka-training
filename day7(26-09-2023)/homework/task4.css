@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+h2{
+    background-color: blueviolet;
+    text-align: center;
+    margin: 12px 0px 0px 0px;
+}
+h3{
+    color: green;
+}
+
+h4{
+    display: inline-block;
+    margin-inline-end:80px;
+}
+#em{
+    margin: 0px 0px 0px 558px;
+}
+#com{
+    color: darkviolet;
+    margin: 0px 0px 0px 538px;
+}
+.web{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: x-small;
+}
+.li{
+    margin: 0px 0px 0px 15px;
+}
+#name{
+    margin: 0px 0px 0px 10px;
+}

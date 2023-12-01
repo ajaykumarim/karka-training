@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.one{
+    background-color: aqua;
+}
+.two{
+    background-color: blueviolet;
+}
+.three{
+    background-color: orange;
+}
+.inline-box{
+    /* display:inline; */
+    border: 2px solid green;
+    padding: 5px;
+    background-color: red;
+}
+p{
+    background-color: greenyellow;
+    display: inline;
+}
+div{
+    display: inline-block;
+    background-color: blue;
+    width: 50px;
+    height: 80px;
+}

@@ -1,0 +1,20 @@
+p{
+    display: inline-block;
+    /*       */
+}
+.one{
+    display: block;
+}
+#first{
+    display: inline-block;
+    padding: 40px;
+    background-color: red !important;
+}
+#second{
+    display: inline-block;
+    padding:  40px;
+    background-color: rgb(13, 217, 232);
+}
+#hide{
+    display: none;
+}

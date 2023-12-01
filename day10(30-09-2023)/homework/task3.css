@@ -1,0 +1,74 @@
+.box{
+    border: 2px solid white;
+    height: 450px;
+    width: 350px;
+    margin-left: 450px;
+    margin-top: 150px;
+}
+.a{
+    border: 1px solid lightgray;
+    background-color: rgb(218, 215, 215);
+    text-align: center;
+    padding: 25px;
+    
+}
+.b{
+    border: 1px solid lightgray;
+    background-color: rgb(218, 215, 215);
+    text-align: center;
+    padding: 15px;
+    margin-top: -20px;
+    
+}
+.c{
+    border: 1px solid lightgray;
+    background-color: rgb(218, 215, 215);
+    text-align: center;
+    padding: 15px;
+    margin-top: -20px;
+    width: 135px;
+    height: 150px;
+}
+.d{
+    margin-top: 70px;
+}
+.e{
+    border: 1px solid lightgray;
+    background-color: rgb(218, 215, 215);
+    text-align: center;
+    padding: 15px;
+    margin-top: -207px;
+    margin-left: 172px;
+    width: 146px;
+    height: 56px;
+}
+.f{
+    margin-top: 20px;
+}
+.g{
+    border: 1px solid lightgray;
+    background-color: rgb(218, 215, 215);
+    text-align: center;
+    padding: 15px;
+    margin-top: -19px;
+    margin-left: 172px;
+    width: 146px;
+    height: 56px
+}
+.h{
+    margin-top: 20px;
+}
+.i{
+    border: 1px solid lightgray;
+    background-color: rgb(218, 215, 215);
+    text-align: center;
+    padding: 3px;
+    margin-top: -20px;
+}
+.j{
+    border: 1px solid lightgray;
+    background-color: rgb(218, 215, 215);
+    text-align: center;
+    padding: 10px;
+    margin-top: -20px;
+}

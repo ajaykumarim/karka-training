@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <input id="num1"/><input id="num2"/>
+    <input id="total"/>
+    <button id="plus">+</button>
+    <button id="minus">-</button>
+    <button id="mult">*</button>
+    <button id="div">/</button>
+</body>
+<script>
+    $(document).ready(function(){
+        $("#plus").click(function(){
+            var num1=parseInt($("#num1").val())
+            var num2=parseInt($("#num2").val())
+            $("#total").val(num1+num2)
+ })
+     $("#minus").click(function(){
+            var num1=parseInt($("#num1").val())
+            var num2=parseInt($("#num2").val())
+            $("#total").val(num1-num2)
+ })
+    $("#mult").click(function(){
+            var num1=parseInt($("#num1").val())
+            var num2=parseInt($("#num2").val())
+            $("#total").val(num1*num2)
+ })
+    $("#div").click(function(){
+            var num1=parseInt($("#num1").val())
+            var num2=parseInt($("#num2").val())
+            $("#total").val(num1/num2)
+ })
+    })
+</script>
+</html>

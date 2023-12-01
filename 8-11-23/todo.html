@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./three.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="heading" style="text-align: center;">To Do List</h1>
+        <div id="inputdiv">
+            <input id="inputbar" name="ListItem" />
+            <button id="button2">Enter</button>
+        </div>
+        <div class="grid">
+            <h2 class="head5" id="first">Tasks:</h2>
+        </div>
+        <hr>
+        <div class="grid1">
+            <ol id="cut"></ol>
+            <br>
+        </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function () {
+        $("#button2").click(function () {
+            var values = $("#inputbar").val();
+            var txt1 = $("<i id='pen' class='fa-regular fa-pen-to-square'></i>")
+            var txt3 = $("<i id='delete' class='fa-solid fa-trash'></i>");
+            var txt2 = $("<p id='para2'></p>").text(values)
+            $("ol").append("<li>");
+            $("li:last").append(txt2);
+            $("li:last").append(txt1);
+            $("li:last").append(txt3);
+            $("li:last").append("<hr>");
+            $("#inputbar").val("");
+        })
+        $(document).on("click", "#delete", function () {
+            $(this).parents("li").hide()
+        })
+        $(document).on("click", "#para2", function () {
+            $(this).toggleClass('strike')
+        })
+        $(document).on("click", "#pen", function () {
+            $(this).hide()
+            let rename = $(this).siblings("#para2").text()
+            $(this).siblings("#para2").hide()
+            $(this).parents("li").prepend("<i id='update' class='fa-solid fa-floppy-disk' style='color: #000000;'></i>")
+            $(this).parents("li").prepend("<input value='" + rename + "'class='form'/>")
+            $(this).siblings("p").hide()
+        })  
+        $(document).on("click", "#update", function () {
+            let five = $(this).siblings(".form").val();
+            $(this).parents("li").prepend("<p class='ok'>" + five + "</p>")
+            $(this).siblings("#para2").text(five)
+            $(this).siblings(".form").hide()
+            $(this).hide()
+            $(this).siblings("#pen").show()
+        })
+        $(document).on("click", ".ok", function () {
+            $(this).toggleClass('strike')
+        })
+    })
+</script>
+</html>

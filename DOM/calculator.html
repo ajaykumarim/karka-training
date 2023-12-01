@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <input type="number" id="one" value="1">
+    <input type="number" id="two" value="2">
+    <button onClick="myfunction()">+</button>
+</body>
+<script>
+function myfunction(){
+    const num=parseInt(document.getElementById("one").value)+parseInt(document.getElementById("two").value)
+    const ans=document.createElement("button")
+    ans.innerText=num
+    document.body.appendChild(ans)
+}  
+</script>
+</html>

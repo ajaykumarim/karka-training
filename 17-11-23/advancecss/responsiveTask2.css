@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: purple;
+    height: 70px;
+}
+.leftside{
+    height: 600px;
+    width: 40%;
+    background-color: pink;
+    border: solid white;
+}
+.rightside{
+    border: solid white;
+    width: 60%;
+}
+.right1{
+    background-color: violet;
+    height: 300px;
+}
+.right2{
+    background-color: pink;
+    height: 300px;
+}
+.content{
+    display: flex;
+}
+.footer{
+    height: 50px;
+    background-color: purple;
+}
+@media only screen and (max-width:991px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .header{
+        background-color: purple;
+        height: 70px;
+    }
+    .leftside{
+        height: 600px;
+        width: 100%;
+        background-color: pink;
+        border: solid white;
+    }
+    .rightside{
+        border: solid white;
+        width: 100%;
+        display: flex;
+    }
+    .right1{
+        background-color: violet;
+        height: 300px;
+        width: 50%;
+    }
+    .right2{
+        background-color: pink;
+        height: 300px;
+        width: 50%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        height: 50px;
+        background-color: purple;
+    }
+}
+
+@media only screen and (max-width:775px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .header{
+        background-color: purple;
+        height: 70px;
+    }
+    .leftside{
+        height: 600px;
+        width: 100%;
+        background-color: pink;
+        border: solid white;
+    }
+    .rightside{
+        border: solid white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .right1{
+        background-color: violet;
+        height: 300px;
+        width: 100%;
+    }
+    .right2{
+        background-color: pink;
+        height: 300px;
+        width: 100%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer{
+        height: 50px;
+        background-color: purple;
+    }
+}

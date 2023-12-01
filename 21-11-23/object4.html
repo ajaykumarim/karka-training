@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <input id="input1" />
+        <select id="cal">
+            <option id="">+</option>
+            <option>-</option>
+            <option>*</option>
+            <option>/</option>
+        </select>
+        <input id="input2" />
+        <button onClick="myfunction()">ok</button>
+    </div><br><br>
+    <div>
+        <input id="output" />
+    </div>
+</body>
+<script>
+    
+    function myfunction(){
+        let a=Number(document.getElementById("input1").value)
+        let b=Number(document.getElementById("input2").value)
+        let cal=document.getElementById("cal").value
+        console.log(cal)
+        if(cal=="+"){
+            let c=document.getElementById("output").value=a+b
+        }
+        if(cal=="-"){
+            let c=document.getElementById("output").value=a-b
+        }
+        if(cal=="*"){
+            let c=document.getElementById("output").value=a*b
+        }
+        if(cal=="/"){
+            let c=document.getElementById("output").value=a/b
+        }
+    }
+    
+</script>
+
+</html>

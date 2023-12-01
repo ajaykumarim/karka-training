@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div id="one" style="background-color: aqua; height: 100px; width: 100px;"></div>
+    <div id="two"><h1>I am learning jquery</h1><h2>name</h2></div>
+    <button>click</button>
+</body>
+<script>
+    $(document).ready(function(){
+        $("#two").hide()
+        $("button").click(function(){
+            $("#one").hide()
+            $("#two").show()
+        })
+    })
+</script>
+</html>

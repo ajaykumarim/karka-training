@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button id="minus">-</button>
+    <input id="ans" />
+    <button id="add">+</button>
+</body>
+<script>
+    const element = document.getElementById("minus")
+    element.addEventListener("mouseover", myfunction)
+    function myfunction() {
+        const one = document.getElementById("ans").value--
+    }
+    const elementa = document.getElementById("add")
+    elementa.addEventListener("mouseover", submit)
+    function submit() {
+        const two = document.getElementById("ans").value++
+    }
+</script>
+
+</html>

@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+h2{
+    color: white;
+    background-color: chartreuse;
+    padding: 5px;
+    text-align: center;
+}
+h3{
+    color: chartreuse;
+}
+h6{
+    display: inline-block;
+    margin-inline-end:80px;
+   
+}
+#image{
+    margin:0px 0px 0px 675px;
+}
+.fruit{
+    margin: 0px 0px 0px 115px;
+    display: inline-block;
+    margin-inline-end:90px;
+   
+   
+}
+
+.d{
+    margin:0px 0px 0px 150px;
+}
+.box{
+    border: 2px solid chartreuse;
+    margin:0px 0px 0px 0px;
+    
+    
+   
+
+}
+
+.obj{
+    display: inline-block;
+    margin-inline-end:38px;
+    padding: 100px 0px 0px 0px;
+}    
+.bd{
+    background-color: beige;
+    background-attachment: fixed;
+    
+    
+}

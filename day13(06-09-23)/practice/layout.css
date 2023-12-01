@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+   
+}
+nav{
+    background: gray;
+    color: white;
+    padding: 8px;
+    padding-left: 100px;
+}
+section{
+    background:rgb(184, 179, 179);
+    color:black;
+    text-align: center;
+    padding: 212px 0px 212px 0px;
+    display: inline-block;
+    width: 60%;
+}
+aside{
+    background:gray;
+    color:black;
+    text-align: center;
+    padding: 212px 0px 212px 0px;
+    display: inline-block;
+    width: 30%;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+div{
+    margin: 10px 0px 10px 110px;
+}
+@media only screen and (max-width:1200px){
+    header{
+        background: black;
+        color: white;
+        text-align: center;
+        padding: 30px;
+       
+    }
+    nav{
+        background: gray;
+        color: white;
+        padding: 8px;
+        padding-left: 100px;
+    }
+    section{
+        background:rgb(184, 179, 179);
+        color:black;
+        text-align: center;
+        padding: 212px 0px 212px 0px;
+        display: inline-block;
+        width: 60%;
+    }
+    aside{
+        background:gray;
+        color:black;
+        text-align: center;
+        padding: 212px 0px 212px 0px;
+        display: inline-block;
+        width: 30%;
+    }
+    footer{
+        background: black;
+        color: white;
+        text-align: center;
+        padding: 30px;
+    }
+    div{
+        margin: 10px 0px 10px 110px;
+    }
+}
+@media only screen and (max-width:992px){
+    header{
+        background: black;
+        color: white;
+        text-align: center;
+        padding: 30px;
+       
+    }
+    nav{
+        background: gray;
+        color: white;
+        padding: 8px;
+        padding-left: 100px;
+    }
+    section{
+        background:rgb(184, 179, 179);
+        color:black;
+        text-align: center;
+        padding: 212px 0px 212px 0px;
+        display: block;
+        width: 100%;
+    }
+    aside{
+        background:gray;
+        color:black;
+        text-align: center;
+        padding: 212px 0px 212px 0px;
+        display: block;
+        width: 100%;
+    }
+    footer{
+        background: black;
+        color: white;
+        text-align: center;
+        padding: 30px;
+    }
+    div{
+        margin: 10px 0px 10px 0px;
+    }
+}

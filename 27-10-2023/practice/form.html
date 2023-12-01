@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="first">
+    <div>
+        <label>Name:</label>
+        <input id="name"/>
+    </div></br>
+    <div>
+        <label>Age:</label>
+        <input id="age"/>
+    </div></br>
+    
+    <div>
+        <label>DOB:</label>
+        <input id="dob"/>
+    </div></br>
+   
+    <div>
+        <label>Email:</label>
+        <input id="email"/>
+    </div></br>
+   
+    <div>
+        <label>Degree:</label>
+        <input id="degree"/>
+    </div></br>
+        <button>Submit</button>
+</div>
+<div class="second">
+    <div>
+        <label>Name:</label>
+        <span id="one"></span>
+    </div>
+    <div>
+        <label>Age:</label>
+        <span id="two"></span>
+    </div>
+    <div>
+        <label>DOB:</label>
+        <span id="three"></span>
+    </div>
+    <div>
+        <label>Email:</label>
+        <span id="four"></span>
+    </div>
+    <div>
+        <label>Degree:</label>
+        <span id="five"></span>
+    </div>
+</div>
+</body>
+    <script>
+        $(document).ready(function(){
+            $(".second").hide();
+              $("button").click(function(){
+                $(".first").hide();
+                $(".second").show();
+
+              var name=$("#name").val()
+              $("#one").text(name)
+           
+              var age=$("#age").val()
+              $("#two").text(age)
+           
+              var dob=$("#dob").val()
+              $("#three").text(dob)
+            
+              var email=$("#email").val()
+              $("#four").text(email)
+           
+              var degree=$("#degree").val()
+              $("#five").text(degree)
+            })
+
+        })
+
+     
+    </script>
+</html>

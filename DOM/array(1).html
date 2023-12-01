@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="num">a=[1,2,3,4,5]</p>
+    <button onClick="myfunction()">click</button>
+</body>
+<script>
+    let a=[1,2,3,4,5]
+    function myfunction(){
+        const one=document.getElementById("num").value
+        for (let i=0;i<a.length;i++){
+            const two=document.createElement("p")
+            two.innerText=a[i]
+            document.body.appendChild(two)
+        }
+    }
+</script>
+</html>

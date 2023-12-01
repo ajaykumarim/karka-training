@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onClick="submit(num1,num2,operater)">click</button>
+</body>
+<script>
+    let num1=parseInt(prompt("Enter a number"))
+    let num2=parseInt(prompt("Enter a number"))
+    let operater=prompt("Enter a operater")
+    function submit(a,b,c){
+        if(c=="+"){
+        console.log(a+b)
+        }else if(c=="-"){
+            console.log(a-b)
+        }else if(c=="*"){
+            console.log(a*b)
+        }else if(c=="/"){
+            console.log(a/b)
+        }
+    }
+</script>
+</html>

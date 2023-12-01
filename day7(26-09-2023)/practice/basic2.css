@@ -1,0 +1,18 @@
+body{
+    /* height:1000px; */
+    background-size: 100%;
+    /* width: 100%; */
+    background-color: aqua;
+    background-image:url("./ovely-cat.png");
+    /* background-repeat:repeat-x;
+    background-repeat:repeat-y; */
+    background-repeat:no-repeat;
+    /* background-size:500px 500px; */
+    /* background-position: bottom center; */
+    background-size: cover;
+    .cat{color: red;}
+    background-attachment:fixed;
+    font-size: 20px;
+    font-weight: 30px;
+
+}

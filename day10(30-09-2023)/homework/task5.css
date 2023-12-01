@@ -1,0 +1,58 @@
+.box{
+    border: 2px solid rgb(194, 194, 194);
+    background-color: rgb(194, 194, 194);
+    height: 350px;
+    width: 550px;
+    margin-left: 375px;
+    margin-top: 150px;
+}
+.a{
+    background-color: dimgrey;
+    color: white;
+    text-align: center;
+    width: 450px;
+    height: 15px;
+    padding: 5px;
+    margin-left: 45px;
+    margin-top: -2px;
+}
+.b{
+    background-color: dimgrey;
+    color: white;
+    text-align: center;
+    width: 410px;
+    height: 25px;
+    padding: 12px;
+    margin-left: 58px;
+    margin-top: -18px;
+}
+.c{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 150px;
+    height: 15px;
+    padding: 60px;
+    margin-left: 58px;
+    margin-top: -9px;
+}
+.d{
+    background-color: gray;
+    color: white;
+    text-align: center;
+    width: 27px;
+    height: 15px;
+    padding: 60px;
+    margin-left: 345px;
+    margin-top: -160px;
+}
+.e{
+    background-color: dimgrey;
+    color: white;
+    text-align: center;
+    width: 345px;
+    height: 15px;
+    padding: 45px;
+    margin-left: 57px;
+    margin-top: -9px;
+}

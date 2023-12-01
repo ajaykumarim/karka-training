@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    let students = [
+        {
+            name: "Ajay",
+            Age: 22,
+            place: "Anjugramam",
+            skills: ["HTML", "CSS", "Python"],
+            Marks: {
+                Tamil: 94,
+                English: 87,
+                Maths: 90,
+                science: 79,
+                Social: 97
+            },
+            Education: ["+2", "Xth"],
+            profession: "Electrical"
+        },
+        {
+            name: "Manish",
+            Age: 24,
+            place: "eathamozhi",
+            skills: ["HTML", "CSS", "Python", "JS"],
+            Marks: {
+                Tamil: 99,
+                English: 89,
+                Maths: 100,
+                science: 89,
+                Social: 77
+            },
+            Education: ["BE", "+2", "diplamo", "Xth"],
+            profession: "Mechanical"
+        },
+        {
+            name: "Sathish",
+            Age: 23,
+            place: "Parvathipuram",
+            skills: ["HTML", "CSS", "JS", "DOM"],
+            Marks: {
+                Tamil: 90,
+                English: 67,
+                Maths: 100,
+                science: 89,
+                Social: 90
+            },
+            Education: ["BE", "+2", "Xth"],
+            profession: "Doctor"
+        },
+        {
+            name: "Arun",
+            Age: 25,
+            place: "MondayMarket",
+            skills: ["HTML", "Python"],
+            Marks: {
+                Tamil: 84,
+                English: 100,
+                Maths: 99,
+                science: 78,
+                Social: 97
+            },
+            Education: ["BE", "+2", "Xth"],
+            profession: "IT"
+        },
+    ]
+
+    // for (i = 0; i < students.length; i++) {
+    //     // console.log(students[i].name)
+    //     for (j = 0; j < students[i].skills.length; j++) {
+    //         // console.log(students[i].skills[j])
+    //         let a=students[i].skills[j]
+    //         if(a=="JS"){
+    //             console.log(a)
+    //             // a.append(student[i].skills[j])
+    //         }
+    //     }
+    // }
+
+    // for (i = 0; i < students.length; i++) {
+    //     // console.log(students[i].name)
+    //     for (j = 0; j < students[i].skills.length; j++) {
+    //         // console.log(students[i].skills[j])
+    //         let a=students[i].skills[j]
+    //         if(students[i].skills[j]=="JS"){
+    //             console.log(students[i].name)
+    //         }
+    //     }
+    // }
+
+    for (i = 0; i < students.length; i++) {
+        // console.log(students[i].Marks)
+        for (let a in students[i].Marks) {
+            let value = students[i].Marks[a]
+            console.log(value)
+        }
+    }
+
+
+    // for (i = 0; i < students.length; i++) {
+    //     for (j = 0; j < students[i].Education.length; j++) {
+    //         // console.log(students[i].skills[j])
+    //         if (students[i].Education[j] == "BE") {
+    //             console.log(students[i].name)
+    //             for (let a in students[i].Marks) {
+    //                 let value1 = students[i].Marks[a]
+    //                 console.log(value1)
+    //             }
+    //             for (let b in students[i].Education) {
+    //                 let value2 = students[i].Education[b]
+    //                 console.log(value2)
+    //             }
+    //             for (let c in students[i].skills) {
+    //                 let value3 = students[i].skills[c]
+    //                 console.log(value3)
+    //             }
+    //         }
+    //     }
+    // }
+
+
+</script>
+
+</html>

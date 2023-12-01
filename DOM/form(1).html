@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="info">
+    <div>
+        <label>Name:</label>
+        <input id="first">
+    </div>
+    <div>
+        <label>Age:</label>
+        <input id="second">
+    </div>
+    <div>
+        <label>DOB:</label>
+        <input id="third">
+    </div>
+    <div>
+        <label>Email:</label>
+        <input id="fourth">
+    </div>
+        <button>submit</button>
+    </div>
+    <div class="details">
+        <div>
+        <label>Name:</label>
+        <span id="one"></span>
+    </div>
+    <div>
+        <label>Age:</label>
+        <span id="two"></span>
+    </div>
+    <div>
+        <label>DOB:</label>
+        <span id="three"></span>
+    </div>
+    <div>
+        <label>Email:</label>
+        <span id="four"></span>
+    </div>
+    </div>
+</body>
+<script>
+    $(document).ready(function(){
+        $(".details").hide();
+        $("button").click(function(){
+            $(".info").hide();
+            $(".details").show();
+            var name=$("#first").val()
+            $("#one").text(name)
+            var age=$("#second").val()
+            $("#two").text(age)
+            var dob=$("#third").val()
+            $("#three").text(dob)
+            var email=$("#fourth").val()
+            $("#four").text(email)
+        })
+    })
+</script>
+</html>

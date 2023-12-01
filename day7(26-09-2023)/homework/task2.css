@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(247, 247, 240);
+    
+}
+#heading{
+    text-align: center;
+    padding: 20px;
+    padding-right: 130px;
+
+    
+
+}
+input{
+    width: 300px;
+    height: 40px;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 400px;
+    text-align: justify;
+
+}
+.button{
+    background-color: black;
+    text-align: justify;
+    color: white;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.line{
+    background-color: white;
+    text-align: justify;
+}
+

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="one">try</button>
+    <p id="demo"></p>
+</body>
+<script>
+    const element=document.getElementById("one")
+    element.addEventListener("mouseover",myfunction)
+    element.addEventListener("click",ready)
+    element.addEventListener("mouseleave",leave)
+    function myfunction(){
+        document.getElementById("demo").innerHTML+="hi</br>"
+    }
+    function ready(){
+        document.getElementById("demo").innerHTML+="success</br>"
+    }
+    function leave(){
+        document.getElementById("demo").innerHTML+="bye</br>"
+    }
+</script>
+</html>

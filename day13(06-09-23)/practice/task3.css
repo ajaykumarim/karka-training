@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background: red;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+aside{
+    background: blue;
+    color: white;
+    padding: 420px 0px;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+}
+section{
+    background: orange;
+    color: white;
+    padding: 420px 0px;
+    text-align: center;
+    display: inline-block;
+    width: 69%;
+}
+footer{
+    background: red;
+    color: white;
+    padding: 20px 0px;
+    text-align: center; 
+}
+@media only screen and (max-width:1200px){
+nav{
+    background: red;
+    color: white;
+    padding: 20px 0px;
+    text-align: center;
+}
+aside{
+    background: blue;
+    color: white;
+    padding: 420px 0px;
+    text-align: center;
+    display: inline-block;
+    width: 30%;
+}
+section{
+    background: orange;
+    color: white;
+    padding: 420px 0px;
+    text-align: center;
+    display: inline-block;
+    width: 69%;
+}
+footer{
+    background: red;
+    color: white;
+    padding: 20px 0px;
+    text-align: center; 
+}
+}
+@media only screen and (max-width:992px){
+    nav{
+        background: red;
+        color: white;
+        padding: 20px 0px;
+        text-align: center;
+    }
+    aside{
+        background: blue;
+        color: white;
+        padding: 420px 0px;
+        text-align: center;
+        display: inline-block;
+        width: 30%;
+    }
+    section{
+        background: orange;
+        color: white;
+        padding: 420px 0px;
+        text-align: center;
+        display: inline-block;
+        width: 69%;
+    }
+    footer{
+        background: red;
+        color: white;
+        padding: 20px 0px;
+        text-align: center; 
+    }
+}
+
+@media only screen and (max-width:776px){
+
+    aside{
+        background: blue;
+        color: white;
+        padding: 300px 0px;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    section{
+        background: orange;
+        color: white;
+        padding: 300px 0px;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+
+}

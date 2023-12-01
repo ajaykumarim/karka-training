@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="name">Maniesh</h1>
+    <h2 id="some">wioe</h2>
+    <h3 id="demo">hii</h3>
+    <p id="content">Lorem ipsum dolor sit amet.</p>
+    <input type="text" id="namea" value="karka">
+</body>
+<script>
+    const change_value=document.getElementById("demo")
+    change_value.innerHTML="bye"
+    const head=document.getElementById("name")
+    head.innerHTML="karka"
+    const sub=document.getElementById("some")
+    sub.innerHTML="gwcueb"
+    const para=document.getElementById("content")
+    para.innerHTML="hi my name is maniesh"
+    const name=document.getElementById("namea").value
+    console.log(name)
+    const ans=document.createElement("h1")
+    ans.innerText=name
+    document.body.appendChild(ans)
+</script>
+</html>

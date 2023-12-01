@@ -1,0 +1,41 @@
+.box{
+    border: 2px solid black;
+    height: 350px;
+    width: 350px;
+    margin-left: 450px;
+    margin-top: 150px;
+}
+.a{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.b{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px
+}
+.c{
+    border: 1px solid black;
+    height: 165px;
+    width: 84px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: -10px;
+    
+}
+.d{
+    text-align: center;
+    margin-top: 70px;
+}
+.e{
+    font-weight: bold;
+    margin-left: 110px;
+    margin-top: -105px;
+}
+.f{
+    text-align: center;
+    font-weight: bold;
+}
+

@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color:gray;
+    color: white;
+}
+.box{
+    height: 250px;
+    width: 400px;
+    text-align: justify;
+    background-color: teal;
+    border: 5px double white;
+    margin:10px 15px 25px 10px;
+    padding: 15px 15px 15px 15px;
+} 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <p id="one">who is the prime minister of india? 1.modi 2.jo 3.stalin</p>
+        <input id="ansa" >
+    </div>
+    <div>
+        <p id="two">what is the national animal? 1.tiger 2.lion 3.wolf</p>
+        <input id="ansb">
+    </div>
+    <div>
+        <p id="three">what is the national bird? 1.hen 2.peacock 3.crow</p>
+        <input id="ansc">
+    </div>
+    <button onclick="myfunction()">submit</button>
+    <p id="demo"></p>
+</body>
+    <script>
+        function myfunction(){
+            let four=document.getElementById("ansa").value
+            let five=document.getElementById("ansb").value
+            let six=document.getElementById("ansc").value
+            let total=0
+            if (four==1){
+                total+=1
+            }
+            if (five==1){
+                total+=1
+            }
+            if (six==2){
+                total+=1
+            }
+            document.getElementById("demo").innerHTML="the score is " + total
+            }
+        
+    </script>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <label>Name:</label><input id="namea"/>
+    </div>
+    <div>
+        <label>Age:</label><input id="age"/>
+    </div>
+    <select id="one" onchange="myfunction()">
+    <option value="front end">front end</option>
+    <option value="back end">back end</option>
+    <option value="fullstack">fullstack</option>
+    </select>
+    <button id="add" onClick="submit()">click</button>
+    <p id="demo1"></p> <p id="demo"></p>
+
+</body>
+<script>
+    function submit(){
+         const one=document.getElementById("namea").value
+         const two=document.getElementById("age").value
+         const five=" my name is ".concat(one , " my age is " ,two)
+         const six=document.getElementById("demo1")
+         six.innerHTML=five
+        //  document.body.appendChild(six)
+    }
+    function myfunction(){
+    // const one=document.getElementById("namea").value
+    // const two=document.getElementById("age").value
+    const three=document.getElementById("one").value
+    const four=document.getElementById("demo")
+    four.innerHTML=" i select "+ three
+    }
+</script>
+</html>

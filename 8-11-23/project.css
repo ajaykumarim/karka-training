@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: monospace; */
+}
+body{
+    margin-top: 100px;
+    background-color: rgb(0, 255, 157);
+
+}
+.container{
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 4px 5px  #473838;
+    height: 500px;
+}
+#heading{
+    font-family: brush script mt;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-shadow: 1.5px 2px #a5a1a1;
+}
+.center{
+    text-align: center;
+}
+#add{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 2px 15px;
+    /* margin-left: 720px; */
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#inputdiv{
+    text-align: center;
+}
+#button2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 8.5px 15px;
+    /* margin-left: 20px; */
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: 8px;
+    /* font-family: times new 'Times New Roman', Times, serif ; */
+}
+#inputbar{
+    background-color: rgb(0, 255, 157);
+    width: 80%;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    height: 25px;
+    border-radius: 20px;
+    
+}
+.head5{
+    display: inline-block;
+}
+/* .grid{
+    display: inline-block;
+    margin-top: 50px;
+
+} */
+
+#first{
+    color: rgb(0, 255, 157);
+    text-shadow: 1px 1px rgb(112, 105, 105);
+    font-family: copperplate,papyrus,fantasy;
+    text-decoration: underline black;
+
+}
+/* #second{
+    
+    color: rgb(0, 255, 157);
+}
+#third{
+    margin-left: 150px;
+    color: rgb(0, 255, 157);
+}
+#fourth{
+
+    color: rgb(0, 255, 157);
+} */
+.intro{
+    padding: 0px 140px;
+    color: white;
+    display: inline-block;
+}
+.intro2{
+
+    padding: 0px 230px;
+    color: white;
+    display: inline-block;
+}
+#three{
+    padding: 0px 50px;
+    padding-right: 260px;
+    
+}
+#four{
+    padding-right: 0px;
+}
+ol{
+    padding-left: 0px;
+}
+ol li{
+    /* background: #eee; */
+    color: black;
+    margin-left: 30px;
+}
+#delete{
+    margin-left: 0px;
+    color: red;
+}
+#pen{
+    margin-left: 20px;
+    color: rgb(0, 255, 34);
+}
+#paras{
+    /* display: inline-block; */
+    color: black;
+}
+#order{
+    /* display: inline-block; */
+}
+#para{
+    display: inline-block;
+}
+#para1{
+    display: inline-block;
+    margin-left: 15px;
+}
+.strike{
+    text-decoration: line-through;
+}
+#para2{
+    display: inline-block;
+}
+#end{
+    display: inline-block;
+}
+.form{
+    display: inline-block;
+}
+.ok{
+    display: inline-block;
+}

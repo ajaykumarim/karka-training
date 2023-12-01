@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    padding: 60px;
+    background-color: black;
+}
+.home{
+    width:22% ;
+    padding: 20px;
+    color: white;
+    /* background-color: blue; */
+}
+.about{
+    width:22% ;
+    padding: 20px;
+    color: white;
+    /* background-color: blue; */
+}
+.apply{
+    width:20.5% ;
+    padding: 20px;
+    color: white;
+    /* background-color: blue; */
+}
+.contact{
+    width:22% ;
+    padding: 20px;
+    color: white;
+    /* background-color: blue; */
+   
+}
+#menu{
+    display: none;
+}
+@media only screen and (max-width:552px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .nav{
+        padding: 60px;
+        width: 100%;
+        height: 240px;
+        text-align: center;
+        padding: 30px;
+        background-color: black;
+        position: relative;
+        justify-content: center;
+        display: none;
+
+    }
+    .home{
+        width:25% ;
+        padding: 20px;
+        color: white;
+        position: absolute;
+        top: 0;
+        display: none;
+    }
+    .about{
+        width:25% ;
+        padding: 20px;
+        color: white;
+        position: absolute;
+        top: 80px;
+        display: none;
+    }
+    .apply{
+        width:25% ;
+        padding: 20px;
+        color: white;
+        position: absolute;
+        display: none;
+        bottom: 80px;
+    }
+    .contact{
+        width:25% ;
+        padding: 20px;
+        color: white;
+        position: absolute;
+        bottom: 0;
+        display: none;
+    } 
+    #menu{
+        display: contents;
+        font-size: 40px;
+       
+    }
+    .men{
+        background-color: black;
+        width: 100%;
+    }
+}

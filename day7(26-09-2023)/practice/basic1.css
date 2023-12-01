@@ -1,0 +1,15 @@
+.para{
+    background-color: red;
+}
+#graph{background-color: blue;}
+.div{background-color: rgb(76, 0, 255);}
+
+.box{background-color: aquamarine;
+    width:200px;
+    height:200px;
+    padding-left:40px;
+    border:2px solid black;
+    /* margin-: 30px; */
+    margin-left: 300px;
+    border-radius:50%;
+}

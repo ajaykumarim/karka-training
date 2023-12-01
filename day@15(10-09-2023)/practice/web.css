@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto Serif', serif;
+}
+.echo{
+  font-family: 'Acme', sans-serif;
+  font-size: 40px;
+}
+.welcome{
+    background-color:rgb(248, 221, 189);
+    color: orangered;
+}
+header{
+    margin-top: 100px;
+}
+.how_to{
+   background-color: rgb(1, 1, 160);
+   color: white;
+}
+.how_to:hover{
+    background-color: white;
+    color: black;
+}
+.content-btn{
+    background-color: white;   
+ }
+ .content-btn:hover{
+    background:  rgb(1, 1, 160);
+    color: white;
+    
+ }
+ .downlode{
+    background-color:  rgb(1, 1, 160);
+    color: orange;
+ }
+ .downlode:hover{
+    background-color: white;
+ }
+ .features{
+    background-color: rgb(248, 221, 189);
+    color: orangered;
+    margin-top: 100px;
+    width: 90px;
+    text-align: center;
+ }
+ .top{
+   margin-top: 200px;
+ }
+ .top2{
+   margin-top: 200px;
+ }
+ .image1{
+   margin-top:100px;
+ }
+ .about{
+   background-color: rgb(248, 221, 189);
+   color: orangered;
+   width: 90px;
+   text-align: center;
+ }
+ .agency li{
+   list-style: none;
+ }
+ .services{
+   background-color: rgb(248, 221, 189);
+    color: orangered;
+    margin-top: 100px;
+    width: 90px;
+    text-align: cente
+ }
+ .pages li{
+   list-style: none;
+ }
+ .resources li{
+   list-style: none;
+ }
+ .contact li{
+   list-style: none;
+ }
+ .lastsection{
+   padding-top: 200px;
+ }
+ @media only screen and (max-width:992px){
+   .contactus{
+    margin-top: 15px;
+   }
+ }
+ 
+ 
+ 
+ 
+     
+
+    

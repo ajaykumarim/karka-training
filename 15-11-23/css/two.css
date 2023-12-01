@@ -1,0 +1,40 @@
+.container{
+    border: 5px solid black;
+    height: 1500px;
+    width: 500px;
+    position: relative;
+}
+#first{
+    background-color: aqua;
+    float: left;
+    
+}
+#second{
+    background-color: rgb(234, 255, 0);
+    float: left;
+    
+}
+#third{
+    background-color: rgb(9, 255, 0);
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+#fourth{
+    background-color: rgb(255, 0, 183);
+    float: right;
+}
+#fifth{
+    background-color: rgb(255, 132, 0);
+    float: right;
+}
+.one{
+    height: 100px;
+    width: 100px;
+}
+#para{
+    clear: both;
+    background-color: blue;
+}

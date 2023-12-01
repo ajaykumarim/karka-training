@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    array=[
+    {
+        id:1,
+        name:"Danish",
+        sslcmark:[76,87,40,80,86]
+    },
+    {
+        id:2,
+        name:"Ajay",
+        sslcmark:[80,85,90,87,88]
+    },
+    {
+        id:3,
+        name:"Benish",
+        sslcmark:[78,90,68,85,87]
+    }
+]
+for(let i=0;i<=array.length;i++){
+    let sslcmarks=array[i].sslcmark
+    let total=0
+    for(let j=0;j<sslcmarks.length;j++){
+       
+        total=total+sslcmarks[j]
+    }
+    console.log("The name is",array[i].name,"and the total mark is",total)
+}
+    
+
+
+</script>
+</body>
+</html>

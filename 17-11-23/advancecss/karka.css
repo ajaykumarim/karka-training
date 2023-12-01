@@ -1,0 +1,113 @@
+*{
+ padding: 0;
+ margin: 0;
+}
+.container{
+    border: 10px solid lightgrey;
+}
+.header{
+    height: 80px;
+    text-align: center;
+}
+.nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    position: relative;
+}
+.nav4{
+    position: absolute;
+    right: 0;
+}
+.img1{
+    background-color: grey;
+    height: 300px;
+}
+.img1right{
+    background-color: grey;
+    height: 100px;
+}
+.img2right{
+    background-color: grey;
+    height: 100px;
+}
+.footer{
+    text-align: center;
+    background-color: lightgray;
+}
+.right{
+    border: 10px solid lightgrey;
+}
+.left{
+    flex-direction: column;
+}
+.content{
+    display: flex;
+    width: 100%;
+}
+.one{
+    border-bottom: 10px solid lightgrey;
+}
+.two{
+    border-bottom: 10px solid lightgrey;
+}
+
+@media only screen and (max-width:556px){
+    *{
+        padding: 0;
+        margin: 0;
+       }
+       .container{
+           border: 10px solid lightgrey;
+       }
+       .header{
+           height: 80px;
+           text-align: center;
+       }
+       .nav{
+           background-color: black;
+           color: white;
+           display: flex;
+           position: relative;
+       }
+       .nav4{
+           position: absolute;
+           right: 0;
+       }
+       .img1{
+           background-color: grey;
+           height: 300px;
+       }
+       .img1right{
+           background-color: grey;
+           height: 100px;
+       }
+       .img2right{
+           background-color: grey;
+           height: 100px;
+       }
+       .footer{
+           text-align: center;
+           background-color: lightgray;
+       }
+       .right{
+           border: 10px solid lightgrey;
+       }
+       .left{
+           /* flex-direction: column; */
+       }
+       .content{
+           display: flex;
+           flex-direction: column;
+           width: 100%;
+       
+       }
+       .one{
+           border-bottom: 10px solid lightgrey;
+       }
+       .two{
+           border-bottom: 10px solid lightgrey;
+       }
+       
+       
+}

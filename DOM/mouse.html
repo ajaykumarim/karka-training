@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="one" onmouseout="remove()" onclick="ready()" onmouseover="myfunction()">try</button>
+    <p id="demo"></p>
+</body>
+<script>
+    function myfunction(){
+        document.getElementById("demo").innerHTML+="hii</br>"
+    }    
+    function ready(){
+        document.getElementById("demo").innerHTML+="success</br>"
+    }    
+    function remove(){
+        document.getElementById("demo").innerHTML+="bye</br>"
+    }
+    
+</script>
+</html>

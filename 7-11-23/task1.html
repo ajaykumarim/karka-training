@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="one" style="border: 10px solid green; background-color: red; height: 100px; width: 100px;"></div>
+
+</body>
+<script>
+    $(document).ready(function () {
+        $("#one").mouseover(function () {
+            $("#one").css("background", "blue").css("border-color", "brown")
+        })
+        $("#one").mouseleave(function () {
+            $("#one").css("background", "red").css("border-color", "green")
+        })
+    })
+</script>
+
+</html>

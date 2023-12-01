@@ -1,0 +1,86 @@
+.container{
+   
+    display: flex;
+    /* align-items: baseline; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    border: solid;
+    height: 500px;
+    /* justify-content: space-evenly; */                                            
+
+}
+.box{
+    height: 40px;
+    width: 40px;
+}
+
+#box1{
+    background-color: rgb(24, 87, 87);
+    flex-shrink: 0;
+    /* height: 10px; */
+    /* align-self: flex-end; */
+}
+#box2{
+    background-color: rgb(255, 115, 0);
+    /* height: 100px; */
+    /* flex-shrink: 2; */
+}
+#box3{
+    background-color: rgb(67, 19, 30);
+    /* height: 200px; */
+    /* flex-shrink: 1; */
+}
+#box4{
+    background-color: rgb(234, 0, 255);
+    /* flex-shrink: 3; */
+}
+#box5{
+    background-color: rgb(68, 255, 0);
+    /* flex-shrink: 4; */
+}
+#box6{
+    background-color: rgb(0, 255, 115);
+}
+#box7{
+    background-color: rgb(255, 98, 0);
+}
+#box8{
+    background-color: rgb(255, 0, 60);
+}
+#box9{
+    background-color: rgb(200, 0, 255);
+}
+#box10{
+    background-color: rgb(15, 1, 4);
+}
+#box11{
+    background-color: rgb(102, 0, 255);
+}
+#box12{
+    background-color: rgb(255, 0, 60);
+}
+#box13{
+    background-color: rgb(0, 255, 174);
+}
+
+#box14{
+    background-color: rgb(255, 77, 0);
+}
+#box15{
+    background-color: rgb(0, 255, 21);
+}
+#box16{
+    background-color: rgb(179, 255, 0);
+}
+#box17{
+    background-color: rgb(10, 58, 0);
+}
+#box18{
+    background-color: rgb(43, 255, 0);
+}
+#box19{
+    background-color: rgb(51, 0, 255);
+}
+#box20{
+    background-color: rgb(179, 255, 0);
+}

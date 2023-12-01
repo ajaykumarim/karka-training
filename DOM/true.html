@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="content"/>
+    <button onclick="myfunction()">click</button>
+</body>
+<script>
+    let a=["karka","academy","nooo"]
+function myfunction(){
+    for (let i=0;i<=a.length;i++){
+        const para=document.getElementById("content").value
+        if (para==a[i]){
+            const tru=document.createElement("p")
+            tru.innerText="true"
+            document.body.appendChild(tru)
+            // alert("sucess")
+        }
+        else{
+            const fal=document.createElement("p")
+            fal.innerText="false"
+            document.body.appendChild(fal)
+        }
+    }
+}
+</script>
+</html>

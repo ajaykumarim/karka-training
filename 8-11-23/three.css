@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: monospace; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+   
+}
+body{
+    margin-top: 100px;
+    /* background-color: rgb(7, 41, 28); */
+    background-color: rgb(255, 255, 255);
+    
+
+}
+.container{
+    width: 500px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 40px;
+    /* background-color: rgb(52, 255, 160); */
+    border-radius: 30px;
+    box-shadow: 4px 5px  #ffffff;
+    height: 500px;
+    /* background-color: rgb(244, 190, 190); */
+    background-color: rgb(255, 200, 200);
+}
+#heading{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* text-shadow: 0.1px 0.1px #a49f9f; */
+    font-family: brush script mt;
+}
+.center{
+    text-align: center;
+}
+#add{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 2px 15px;
+    /* margin-left: 720px; */
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+#inputdiv{
+    text-align: center;
+}
+#button2{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 5px 15px;
+    /* margin-left: 20px; */
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-family: brush script mt;
+}
+#inputbar{
+    /* background-color: rgb(16, 93, 63); */
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    /* color: rgb(0, 0, 0); */
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    height: 25px;
+    border-radius: 20px;
+}
+.head5{
+    display: inline-block;
+}
+/* .grid{
+    display: inline-block;
+    margin-top: 50px;
+
+} */
+
+#first{
+    color: rgb(0, 0, 0);
+    font-family: brush script mt;
+    text-decoration: underline;
+    font-family: copperplate,papyrus,fantasy;
+    /* text-shadow: 0.5px 0.5px rgb(124, 124, 124); */
+}
+/* #second{
+    
+    color: rgb(0, 255, 157);
+}
+#third{
+    margin-left: 150px;
+    color: rgb(0, 255, 157);
+}
+#fourth{
+
+    color: rgb(0, 255, 157);
+} */
+.intro{
+    padding: 0px 140px;
+    color: white;
+    display: inline-block;
+}
+.intro2{
+
+    padding: 0px 230px;
+    color: white;
+    display: inline-block;
+}
+#three{
+    padding: 0px 50px;
+    padding-right: 260px;
+    
+}
+#four{
+    padding-right: 0px;
+}
+ol{
+    padding-left: 0px;
+}
+ol li{
+    /* background: #eee; */
+    color: black;
+    margin-left: 30px;
+}
+#delete{
+    margin-left: 0px;
+    color: red;
+}
+#pen{
+    margin-left: 20px;
+    color: rgb(0, 255, 34);
+}
+#paras{
+    /* display: inline-block; */
+    color: black;
+}
+#order{
+    /* display: inline-block; */
+}
+#para{
+    display: inline-block;
+}
+#para1{
+    display: inline-block;
+    margin-left: 15px;
+}
+.strike{
+    text-decoration: line-through;
+}
+#para2{
+    display: inline-block;
+}
+#end{
+    display: inline-block;
+}
+.form{
+    display: inline-block;
+}
+.ok{
+    display: inline-block;
+}

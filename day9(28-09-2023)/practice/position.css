@@ -1,0 +1,8 @@
+.box-1{
+    /* position: relative;
+    left: 50px;
+    top: 25px; */
+    position: fixed;
+    /* top: 0; */
+    bottom: 0;
+}

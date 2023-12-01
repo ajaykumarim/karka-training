@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 20px;
+}
+.header{
+    background-color: green;
+    height: 80px;
+}
+.block{
+    /* margin: 50px 100px; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+.block1{
+    width: 33%;
+}
+.block2{
+    width: 33%;
+}
+.block3{
+    width: 33%;
+}
+.img1{
+    background-color: green;
+    height: 200px;
+}
+.img2{
+    background-color: green;
+    height: 200px;
+}
+.img3{
+    background-color: green;
+    height: 200px;
+}
+
+
+@media only screen and (max-width:776px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        margin: 20px;
+    }
+    .header{
+        background-color: green;
+        height: 80px;
+    }
+    .block{
+        /* margin: 50px 100px; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .block1{
+        width: 100%;
+        display: flex;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .block2{
+        width: 100%;
+        display: flex;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .block3{
+        width: 100%;
+        display: flex;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .img1{
+        background-color: green;
+        height: 200px;
+        width: 50%;
+    }
+    .img2{
+        background-color: green;
+        height: 200px;
+        width: 50%;
+    }
+    .img3{
+        background-color: green;
+        height: 200px;
+        width: 50%;
+    }
+    .para1{
+        width: 48%;
+        overflow: scroll;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .para2{
+        width: 48%;
+        overflow: scroll;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .para3{
+        width: 48%;
+        overflow: scroll;
+        margin-left: 10px;
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width:552px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .container{
+        margin: 0px;
+    }
+    .header{
+        background-color: green;
+        height: 80px;
+    }
+    .block{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90%;
+        margin-top: 40px;
+        margin: 20px;
+    }
+    .block1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .block2{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .block3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        margin-bottom: 10px;
+    }
+    .img1{
+        background-color: green;
+        height: 200px;
+        width: 100%;
+    }
+    .img2{
+        background-color: green;
+        height: 200px;
+        width: 100%;
+    }
+    .img3{
+        background-color: green;
+        height: 200px;
+        width: 100%;
+    }
+    .para1{
+        width: 98%;
+        overflow: scroll;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .para2{
+        width: 98%;
+        overflow: scroll;
+        margin-left: 10px;
+        text-align: justify;
+    }
+    .para3{
+        width: 98%;
+        overflow: scroll;
+        margin-left: 10px;
+        text-align: justify;
+    }
+}

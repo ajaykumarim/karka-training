@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="number" id="one" onkeypress=""/>
+    <!-- <p id="demo"></p> -->
+    <button id="two" onClick="myfunction()">click</button>
+</body>
+<script>
+//    let num=parseInt(prompt("enter a number"))
+  
+   function myfunction(){
+    let element=document.getElementById("one").value
+    let b="*"
+    for (i=1;i<=element;i++){
+        let result=""
+        for (let j=1;j<=i;j++){
+            result+=b
+        }
+    //    document.getElementById("demo").innerHTML=result
+       document.getElementById("one").style.backgroundColor="red"
+    const para=document.createElement("p")
+    para.innerHTML=result
+    document.body.appendChild(para)
+    }
+}
+</script>
+</html>

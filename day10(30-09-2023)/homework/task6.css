@@ -1,0 +1,42 @@
+.box{
+    
+    height: 350px;
+    width: 550px;
+    margin-left: 375px;
+    margin-top: 150px;
+}
+.a{
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    height: 45px;
+    margin-top: 0px;
+}
+.b{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 270px;
+    width: 100px;
+    margin-top: -25px;
+}
+.c{
+    background-color: green;
+    color: white;
+    text-align: center;
+    height: 270px;
+    width: 451px;
+    margin-left: 99px;
+    margin-top: -295px;
+}
+.d{
+    background-color: darkred;
+    color: white;
+    text-align: center;
+    height: 34px;
+    margin-top: -25px;
+}
+.e{
+    border: 1px solid black;
+    margin-top: -26px;
+}

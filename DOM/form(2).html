@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <label>Name:<input type="text" id="names"/></label>
+</div>
+<div>
+   <label>Age:<input type="number" id="age"/></label>
+</div>
+<div>
+    <label>Degree:<input type="text" id="degree"/></label>
+</div>
+<div>
+    <label>clg:<input type="text" id="clg"/></label>
+</div>
+<div>
+    <button onclick="myfunction()">submit</button>
+</div>
+</body>
+<script>
+    function myfunction(){
+        const head=document.createElement("h1")
+        head.innerText="Details"
+        document.body.appendChild(head)
+        const one=document.getElementById("names").value
+        const two=document.getElementById("age").value
+        const three=document.getElementById("degree").value
+        const four=document.getElementById("clg").value
+        const five="MY name is" .concat ( one , " my age is " , two ," i completed " , three , "at" , four)
+        const six=document.createElement("p")
+        six.innerText=five
+        document.body.appendChild(six)
+    }
+</script>
+</html>

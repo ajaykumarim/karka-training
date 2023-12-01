@@ -1,0 +1,37 @@
+.box{
+    border: 3px solid black;
+    height: 350px;
+    width: 350px;
+    margin-left: 450px;
+    margin-top: 150px;
+}
+.a{
+    background-color: palevioletred;
+    text-align: center;
+    padding: 30px;
+    margin-top: 0px;
+}
+.b{
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    margin-top: -22px;
+}
+.c{
+    background-color: white;
+    text-align: center;
+    padding: 73px;
+    margin-top: -22px;
+}
+.d{
+    background-color: darkorchid;
+    text-align: center;
+    padding: 30px;
+    margin-top: -23px;
+}
+
+
+
+
+
