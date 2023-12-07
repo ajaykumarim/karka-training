@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    try{
+        num=parseInt(prompt("Enter a number"))
+        
+        if(isNaN(num))
+        throw "Enter a valid number"
+
+        if(num<=0)
+        throw "enter only positive number"
+        
+        console.log(num)
+    }
+    catch(error){
+        console.log(error)
+    }
+    finally{
+        console.log("bye")
+    }
+</script>
+</html>

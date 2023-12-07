@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./example2.css">
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th id="serialno"></th>
+            <th id="name"></th>
+            <th id="age"></th>
+            <th id="place"></th>
+        </tr>
+        <tr>
+            <td id="name1"></td>
+            <td id="age1"></td>
+        </tr>
+    </table>
+
+</body>
+<script>
+    let num = document.getElementById("serialno").innerHTML="s.no"
+    let name = document.getElementById("name").innerHTML="Name"
+    let age = document.getElementById("age").innerHTML="Age"
+    let place = document.getElementById("place").innerHTML="Place"
+
+    const people = [
+        { name: "ajay", age: 22 },
+        { name: "mahathi", age: 17 },
+        { name: "jemil", age: 23 }
+    ]
+
+    // people.map((person)=>({
+        
+    //     document.getElementById("name1").innerHTML=person.name
+        
+    // }))
+
+    // people.map(function(person){
+    //    document.getElementById("name1").innerHTML=person.name
+    //     console.log(person.name)
+    //     document.getElementById("age1").innerHTML=parseInt( person.age)
+    //     console.log(person.age) 
+    // })
+    // console.log(peopleMapping)
+
+    let a=document.getElementById("name1").innerHTML=people.map(person=>person.name)
+</script>
+
+</html>

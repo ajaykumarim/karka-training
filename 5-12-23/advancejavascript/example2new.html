@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./example2.css">
+</head>
+<body id="demo">
+    
+</body>
+<script>
+    // let people=[
+    //     {name:"ajay",age:22}
+    //     {name:"jemil",age:23}
+    //     {name:"mahathi",age:17}
+    // ]
+
+    // let table=
+    // `<table>
+    //     <tr>
+    //     <th>s.no</th>
+    //     <th>name</th`
+
+        let people = [
+        { name: "ajay", age: 22 },
+        { name: "jemil", age: 23 },
+        { name: "mahathi", age: 17 },
+        { name: "arun", age: 25 },
+        { name: "arun", age: 25 }
+
+
+    ]
+
+    let table=
+    `<table>
+        <tr>
+        <th>S.No</th>
+        <th>Name</th>
+        <th>Age</th>
+        </tr>
+       ${ people.map((person,a)=>`
+        <tr>
+            <td>${a+1}</td>
+            <td>${person.name}</td>
+            <td>${person.age}</td>
+        </tr>
+        `).join('')}
+    </table>`
+    document.getElementById("demo").innerHTML=table
+
+    // let table=
+    // `<table>
+    //     <tr>
+    //     <th>S.No</th>
+    //     <th>Name</th>
+    //     <th>Age</th>
+    //     </tr>
+    //    ${ people.map((person,a)=>{
+    //     `<tr>
+    //         <td>${a+1}</td>
+    //         <td>${person.name}</td>
+    //         <td>${person.age}</td>
+    //     </tr>`
+    //     })}
+    // </table>`
+    // document.getElementById("demo").innerHTML=table
+</script>
+</html>

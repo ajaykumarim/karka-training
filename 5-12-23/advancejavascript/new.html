@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+</body>
+<script>
+    function arr2tbl(array) {
+        // row: creates html for a single table row:
+        const row = (obj, what, cell) => `<tr>${Object[what](obj).map(k => `<t${cell}>${k}</t${cell}>`).join("")}<tr>`;
+        return row(array[0], "keys", "h") // heading row
+            + array.map(o => row(o, "values", "d")).join(""); // table body
+    }
+
+    const arr = [{ name: 'Player1', score: 10 },
+    { name: 'Player2', score: 7 },
+    { name: 'Player3', score: 3 }]
+</script>
+
+</html>

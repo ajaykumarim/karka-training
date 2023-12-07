@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // let a=[6,4,66,8,9]
+    // let a=[6,4,6,8,9]
+    // let maxdiff=a[1]-a[0]
+    // let minelement=a[0]
+    // for(let i=1;i<a.length;i++){
+    //     if(maxdiff<a[i]-minelement){
+    //         maxdiff=a[i]-minelement
+    //     }
+    //     if(minelement>a[i]){
+    //         minelement=a[i]
+    //     }
+    // }
+    // console.log(maxdiff)
+
+    let a=[6,10,60,8,9]
+    let maxnumber=a[0]
+    let minnumber=a[0]
+    for(let i=0;i<=a.length-1;i++){
+        if(a[i]>maxnumber){
+            maxnumber=a[i]
+        }
+        if(a[i]<a[0]){
+            minnumber=a[i]
+        }
+    }
+    let maxdifference=maxnumber-minnumber
+    console.log(maxdifference)
+
+    // let maxdiff=0
+    // for(let i=0;i<=a.length;i++){
+    //     for(let j=i;j<=a.length;j++){
+    //         if(a[i]-a[j]>maxdiff){
+    //             maxdiff=a[i]-a[j]
+    //         }
+    //     }
+    // }
+    // console.log(maxdiff)
+</script>
+</html>

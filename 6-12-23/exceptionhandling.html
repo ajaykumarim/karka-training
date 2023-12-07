@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    try{
+        num=prompt("Enter a positive number")
+        if(num<=0){
+            throw "Enter only positive number"
+        }
+        if(isNaN(num)){
+            throw "Enter a valid number"
+        }
+        console.log(num+2)
+    }
+    catch(a){
+        console.log(a)
+    }
+</script>
+</html>

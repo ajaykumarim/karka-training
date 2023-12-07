@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const people=[
+        {name:"ajay",age:"22"},
+        {name:"mahathi",age:17},
+        {name:"jemil",age:23}
+    ]
+    const peopleMapping=people.map((person,index)=>({
+        ...person,
+        isAdult:person.age>=18,
+        index:index
+    }))
+    console.log(peopleMapping)
+</script>
+</html>
