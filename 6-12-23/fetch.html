@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fetch.css"/>
+</head>
+<body id="demo">
+    
+</body>
+<script>
+    const apiURL="https://jsonplaceholder.typicode.com/todos"
+    const fetchData=fetch(apiURL)
+    fetchData.then(response=>{
+        if(!response.ok){
+            throw new Error(`HTTP error!status:${response.status}`)
+        }
+        return response.json()
+    })
+    .then(data=>{
+        // console.log("Data:",data)
+        let table=
+    `<table>
+        <tr>
+        <th>id</th>
+        <th>userid</th>
+        <th>title</th>
+        <th>completed</th>
+
+        </tr>
+       ${data.map((a) => 
+        //console.log(a.id,"a")
+        `
+        <tr>
+            <td>${a.userId}</td>
+            <td>${a.id}</td>
+            <td>${a.title}</td>
+            <td>${a.completed}</td>
+        </tr>
+        `)}
+    </table>`
+    document.getElementById("demo").innerHTML=table
+    })
+    .catch(err=>{
+        // console.error("Error:",err.message)
+    })
+
+    
+
+    
+</script>
+</html>
