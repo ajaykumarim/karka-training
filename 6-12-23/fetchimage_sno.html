@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./serialno.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body id="demo">
+    
+</body>
+<script>
+     var details = [];
+    const apiURL="https://reqres.in/api/users?page=2"
+    const fetchData=fetch(apiURL)
+    fetchData.then(response=>{
+        if(!response.ok){
+            throw new Error(`HTTP error!status:${response.status}`)
+        }
+        return response.json()
+    })
+    .then(data=>{
+        details=data.data
+        // console.log("Data:",details)
+        newfunction()
+        let table=
+    `<table>
+        <tr>
+        <th>Serial number</th>
+        <th>Id</th>
+        <th>Email</th>
+        <th>First name</th>
+        <th>last name</th>
+        <th>Avatar</th>
+        <th>Delete</th>
+        </tr>
+       ${function newfunction(){
+            if(details.length>0){
+                let body=document.getElementById("two")[0]
+        
+        body.innerHTML=details.map((a,index) => {
+        $(document).on("click",".del", function () {
+            $(this).parents("tr").remove()
+        })
+        // console.log(a)
+        return `
+        <tr id="one">
+            <td id="two">${index+1}</td>
+            <td>${a.id}</td>
+            <td>${a.email}</td>
+            <td>${a.first_name}</td>
+            <td>${a.last_name}</td>
+            <td><img src="${a.avatar}"/></td>
+            <td><button class="del" onclick="handleDel('${a.name}')">Delete</button</td>
+        </tr>
+        `
+    
+    }
+    )
+}
+}
+    .join("")}
+    </table>`
+    document.getElementById("demo").innerHTML=table
+
+    })
+    .catch(err=>{
+        // console.error("Error:",err.message)
+    })
+    function handleDel(name) {
+            details = details.filter((data) => data.name !== name);
+            newfunction(); 
+        }
+    
+</script>
+</html>

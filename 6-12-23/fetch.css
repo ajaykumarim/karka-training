@@ -1,3 +1,9 @@
 table,td,th{
     border: 2px solid black;
 }
+li{
+    list-style-type: decimal;
+}
+.space{
+    margin-left: 50px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fetch.css"/>
+</head>
+<body id="demo">
+    
+</body>
+<script>
+    const apiURL="https://reqres.in/api/users?page=2"
+    const fetchData=fetch(apiURL)
+    fetchData.then(response=>{
+        if(!response.ok){
+            throw new Error(`HTTP error!status:${response.status}`)
+        }
+        return response.json()
+    })
+    .then(data=>{
+        console.log("Data:",data.data)
+        let table=
+    `<table>
+        <tr>
+        <th>Id</th>
+        <th>Email</th>
+        <th>First name</th>
+        <th>last name</th>
+        <th>Avatar</th>
+
+        </tr>
+       ${data.data.map((a) => {
+        // console.log(a)
+        return `
+        <tr>
+            <td>${a.id}</td>
+            <td>${a.email}</td>
+            <td>${a.first_name}</td>
+            <td>${a.last_name}</td>
+            <td>${a.avatar}</td>
+        </tr>
+        `
+    }
+    ).join("")}
+    </table>`
+    document.getElementById("demo").innerHTML=table
+    })
+    .catch(err=>{
+        // console.error("Error:",err.message)
+    })
+</script>
+</html>

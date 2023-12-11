@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fetch.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body >
+    <ol id="demo">
+
+    </ol>
+</body>
+<script>
+    const apiURL="https://reqres.in/api/users?page=2"
+    const fetchData=fetch(apiURL)
+    fetchData.then(response=>{
+        if(!response.ok){
+            throw new Error(`HTTP error!status:${response.status}`)
+        }
+        return response.json()
+    })
+    .then(data=>{
+        console.log("Data:",data.data)
+        let table=
+    `<table>
+        <tr>
+        <th>Serial number</th>
+        <th>Id</th>
+        <th>Email</th>
+        <th>First name</th>
+        <th>last name</th>
+        <th>Avatar</th>
+        <th>Delete</th> 
+        </tr>
+       ${data.data.map((a,index) => {
+        $(document).on("click",".del", function () {
+            $(this).parents("tr").remove()
+        })
+        // console.log(a)
+        return `
+        <tr id="one">
+            <td id="two"><li class="space"></li></td>
+            <td>${a.id}</td>
+            <td>${a.email}</td>
+            <td>${a.first_name}</td>
+            <td>${a.last_name}</td>
+            <td><img src="${a.avatar}"/></td>
+            <td><button class="del" onClick="newfunction()">Delete</button</td>
+        </tr>
+        `
+
+    }
+    ).join("")}
+    </table>`
+    document.getElementById("demo").innerHTML=table
+
+    })
+    .catch(err=>{
+        // console.error("Error:",err.message)
+    })
+    // function newfunction(){
+    // document.getElementById("one").remove();
+    // }
+
+    
+</script>
+</html>
